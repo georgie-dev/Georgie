@@ -10,7 +10,7 @@ const Nav = () => {
     const [mobileNav, setMobileNav] = useState(false)
 
     return (
-        <div className='fixed w-full border-b-2 border-black bg-white transition-all'>
+        <div className='fixed z-50 w-full border-b-2 border-black bg-white transition-all'>
             <div className='flex justify-between py-5 px-3 md:px-14 lg:px-36 items-center'>
                 <div className='w-fit lg:w-1/4 text-left font-semibold text-lg text-black'>
                     <h1>Georgie.dev</h1>
