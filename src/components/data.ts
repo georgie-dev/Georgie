@@ -41,3 +41,32 @@ export const experience = [
       "I began my career as a Junior Web Developer at Sysmax Technologies, where I focused on creating user-friendly websites using HTML, CSS, and JavaScript. I implemented responsive designs to ensure optimal viewing across all devices and worked closely with the design team to deliver visually appealing and functional web solutions. My responsibilities included conducting thorough browser compatibility testing to maintain consistent functionality across different platforms.",
   },
 ];
+
+export const projects=[
+  {
+    id: 1,
+    image: '/projects/alleybookings.png',
+    name:'AlleyBookings',
+    description: "AlleyBookings is an online travel agency designed to serve travelers and tourists. Currently in beta testing, it offers a comprehensive range of services, including hotel and flight bookings, car rentals, and tour packages. As a one-stop platform, AlleyBookings simplifies travel planning for a seamless experience.",
+    link:'https://staging.alleybookings.com/',
+    stack: ['Next.js', 'Javascript', 'Tailwindcss']
+  },
+  {
+    id: 2,
+    image: '/projects/banquee.png',
+    name:'Banquee',
+    description: "Banquee is a fun and interactive banking simulation platform where users can create accounts, get assigned account numbers, set PINs, track spending, and simulate deposits and withdrawals. It’s a hands-on way to explore digital banking without the risk!",
+    link:'https://banquee-fawn.vercel.app/',
+    gitHub:'https://github.com/georgie-dev/banquee',
+    stack: ['Next.js', 'Typescript', 'Firebase', 'Tailwindcss']
+  },
+  {
+    id: 3,
+    image: '/projects/lift.png',
+    name:'Lift',
+    description: "Lift is a personal web application project I designed to help fitness enthusiasts streamline their journey. With Lift, users can create personalized exercise plans, join live training sessions, and set diet goals—all in one platform",
+    link:'https://lift-theta.vercel.app/',
+    gitHub:'https://github.com/georgie-dev/Lift',
+    stack: ['Next.js', 'Javascript', 'Firebase', 'Tailwindcss']
+  },
+]
