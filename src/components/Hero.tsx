@@ -18,7 +18,9 @@ const Hero = () => {
                     </div>
                     <div className=' flex items-center gap-4'>
                         {socialLinks.map((link, index) => (
-                            <button key={index} className='w-12 h-12 flex items-center justify-center bg-white hover:bg-black text-black hover:text-white border-2 border-black rounded-md'><Link href={link.link}><link.icon /></Link></button>
+                            <Link key={index} href={link.link} className='w-12 h-12 flex items-center justify-center bg-white hover:bg-black text-black hover:text-white border-2 border-black rounded-md'>
+                                <link.icon />
+                            </Link>
                         ))}
                     </div>
                 </div>
