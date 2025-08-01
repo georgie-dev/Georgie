@@ -1,6 +1,8 @@
-import { FaXTwitter,
-  //  FaLinkedinIn, 
-   FaGithub } from "react-icons/fa6";
+import {
+  FaXTwitter,
+  //  FaLinkedinIn,
+  FaGithub,
+} from "react-icons/fa6";
 
 export const socialLinks = [
   {
@@ -44,58 +46,64 @@ export const experience = [
   },
 ];
 
-export const projects=[
+export const projects = [
   {
     id: 1,
-    image: '/projects/alleybookings.png',
-    name:'AlleyBookings',
-    description: "AlleyBookings is an online travel agency based in Kano, Nigeria, designed to serve travelers and tourists. Currently in beta testing, it offers a comprehensive range of services, including hotel and flight bookings, car rentals, and tour packages. As a one-stop platform, AlleyBookings simplifies travel planning for a seamless experience.",
-    link:'https://staging.alleybookings.com/',
-    stack: ['Next.js', 'Javascript', 'Tailwindcss']
+    image: "/projects/alleybookings.png",
+    name: "AlleyBookings",
+    description:
+      "AlleyBookings is an online travel agency based in Kano, Nigeria, designed to serve travelers and tourists. Currently in beta testing, it offers a comprehensive range of services, including hotel and flight bookings, car rentals, and tour packages. As a one-stop platform, AlleyBookings simplifies travel planning for a seamless experience.",
+    link: "https://staging.alleybookings.com/",
+    stack: ["Next.js", "Javascript", "Tailwindcss"],
   },
   {
     id: 2,
-    image: '/projects/banquee.png',
-    name:'Banquee',
-    description: "Banquee is a fun and interactive banking simulation platform where users can create accounts, get assigned account numbers, set PINs, track spending, and simulate deposits and withdrawals. It’s a hands-on way to explore digital banking without the risk!",
-    link:'https://banquee-fawn.vercel.app/',
-    gitHub:'https://github.com/georgie-dev/banquee',
-    stack: ['Next.js', 'Typescript', 'Firebase', 'Tailwindcss']
+    image: "/projects/nds.png",
+    name: "National Diagnostics Summit",
+    description:
+      "This project was built for the Federal Ministyr of Health and Social Welfare as a repository and advertisement platfrom for thier Mainden National Diagnostics Summit",
+    link: "https://nationaldiagnosticsummit.ng/",
+    // gitHub:'https://github.com/georgie-dev/Lift',
+    stack: ["React.js", "Typescript"],
   },
   {
     id: 3,
-    image: '/projects/lift.png',
-    name:'Lift',
-    description: "Lift is a personal web application project I designed to help fitness enthusiasts streamline their journey. With Lift, users can create personalized exercise plans, join live training sessions, and set diet goals—all in one platform",
-    link:'https://lift-theta.vercel.app/',
-    gitHub:'https://github.com/georgie-dev/Lift',
-    stack: ['Next.js', 'Javascript', 'Firebase', 'Tailwindcss']
+    image: "/projects/msdat.png",
+    name: "MSDAT",
+    description:
+      "Built for the Federal Ministry of Health and Social Welfare, The MSDAT which stands for Multi-Source Data Triangulation Platfrom is a data visualization platfrom for key health indicators in Nigeria. This platfrom includes data for each state of the Federation and it use in key decision making in the Health Sector",
+    link: "https://msdat.fmohconnect.gov.ng/dashboard/Health_Outcomes_and_Service_Coverage?indicator=32&datasource=6&location=1",
+    // gitHub:'https://github.com/georgie-dev/Lift',
+    stack: ["Vue.js", "Typescript"],
   },
   {
     id: 4,
-    image: '/projects/strac.png',
-    name:'sTRAC',
-    description: "sTRAC is a sample tracking platfrom built for the Cameroonian Ministry of Health. This Platform allows health facilities and labs within the country track the movement of clients health samples eligible for testing to improve quick turn around time and results ",
+    image: "/projects/strac.png",
+    name: "sTRAC",
+    description:
+      "sTRAC is a sample tracking platfrom built for the Cameroonian Ministry of Health. This Platform allows health facilities and labs within the country track the movement of clients health samples eligible for testing to improve quick turn around time and results ",
     // link:'https://lift-theta.vercel.app/',
     // gitHub:'https://github.com/georgie-dev/Lift',
-    stack: ['React.js', 'Redux', 'Tailwindcss']
+    stack: ["React.js", "Redux", "Tailwindcss"],
   },
   {
     id: 5,
-    image: '/projects/nds.png',
-    name:'National Diagnostics Summit',
-    description: "This project was built for the Federal Ministyr of Health and Social Welfare as a repository and advertisement platfrom for thier Mainden National Diagnostics Summit",
-    link:'https://nationaldiagnosticsummit.ng/',
-    // gitHub:'https://github.com/georgie-dev/Lift',
-    stack: ['React.js', 'Typescript']
+    image: "/projects/banquee.png",
+    name: "Banquee",
+    description:
+      "Banquee is a fun and interactive banking simulation platform where users can create accounts, get assigned account numbers, set PINs, track spending, and simulate deposits and withdrawals. It’s a hands-on way to explore digital banking without the risk!",
+    link: "https://banquee-fawn.vercel.app/",
+    gitHub: "https://github.com/georgie-dev/banquee",
+    stack: ["Next.js", "Typescript", "Firebase", "Tailwindcss"],
   },
   {
-    id: 5,
-    image: '/projects/msdat.png',
-    name:'MSDAT',
-    description: "Built for the Federal Ministry of Health and Social Welfare, The MSDAT which stands for Multi-Source Data Triangulation Platfrom is a data visualization platfrom for key health indicators in Nigeria. This platfrom includes data for each state of the Federation and it use in key decision making in the Health Sector",
-    link:'https://msdat.fmohconnect.gov.ng/dashboard/Health_Outcomes_and_Service_Coverage?indicator=32&datasource=6&location=1',
-    // gitHub:'https://github.com/georgie-dev/Lift',
-    stack: ['Vue.js', 'Typescript']
+    id: 6,
+    image: "/projects/lift.png",
+    name: "Lift",
+    description:
+      "Lift is a personal web application project I designed to help fitness enthusiasts streamline their journey. With Lift, users can create personalized exercise plans, join live training sessions, and set diet goals—all in one platform",
+    link: "https://lift-theta.vercel.app/",
+    gitHub: "https://github.com/georgie-dev/Lift",
+    stack: ["Next.js", "Javascript", "Firebase", "Tailwindcss"],
   },
-]
+];
