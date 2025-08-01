@@ -1,25 +1,13 @@
 import React from 'react'
-import { FaHtml5, FaCss3, FaReact, FaPython } from "react-icons/fa6";
+import { FaReact, FaPython, FaAws, FaVuejs } from "react-icons/fa6";
 import { FaGitAlt } from "react-icons/fa";
-import { RiTailwindCssFill, RiNextjsLine, RiFirebaseLine } from "react-icons/ri";
+import { RiNextjsLine, RiFirebaseLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript, BiLogoDjango } from "react-icons/bi";
 import { SiMysql } from "react-icons/si";
 
 const Skills = () => {
     const skills = [
-        {
-            icon: <FaHtml5 />,
-            name:'HTML5'
-        },
-        {
-            icon: <FaCss3 />,
-            name:'CSS3'
-        },
-        {
-            icon: <RiTailwindCssFill />,
-            name:'TailwindCSS'
-        },
         {
             icon: <IoLogoJavascript />,
             name:'Javascript'
@@ -35,6 +23,10 @@ const Skills = () => {
         {
             icon: <RiNextjsLine />,
             name:'Next.js'
+        },
+        {
+            icon: <FaVuejs />,
+            name:'Vue.js'
         },
         {
             icon: <FaPython />,
@@ -56,10 +48,10 @@ const Skills = () => {
             icon: <FaGitAlt />,
             name:'Git'
         },
-        // {
-        //     icon: <SiJest />,
-        //     name:'Jest'
-        // },
+        {
+            icon: <FaAws />,
+            name:'AWS'
+        },
     ]
     return (
         <div id='skills' className='py-8 px-3 md:px-14 lg:px-36'>
