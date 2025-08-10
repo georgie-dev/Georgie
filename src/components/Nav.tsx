@@ -42,6 +42,7 @@ const Nav = () => {
                             <Link onClick={() => setMobileNav(!mobileNav)} href='/#contact'>Contact</Link>
                             <Link onClick={() => setMobileNav(!mobileNav)}
                                 href='/George_Manger_Resume.pdf'
+                                target='_blank'
                                 download
                                 className='flex items-center gap-1' ><span>Résumé</span> <span className='text-lg'><CgSoftwareDownload /></span>
                             </Link>

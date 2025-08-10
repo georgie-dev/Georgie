@@ -4,7 +4,7 @@ import { FaGitAlt } from "react-icons/fa";
 import { RiNextjsLine, RiFirebaseLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript, BiLogoDjango } from "react-icons/bi";
-import { SiMysql } from "react-icons/si";
+import { SiMysql, SiPostgresql } from "react-icons/si";
 
 const Skills = () => {
     const skills = [
@@ -39,6 +39,10 @@ const Skills = () => {
         {
             icon: <SiMysql />,
             name:'MySQL'
+        },
+        {
+            icon: <SiPostgresql />,
+            name:'PostGreSQL'
         },
         {
             icon: <RiFirebaseLine />,

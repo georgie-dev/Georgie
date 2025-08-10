@@ -21,7 +21,7 @@ const About = () => {
                     <div className=' flex flex-col gap-3 text-zinc-500'>
                         <p>In 2019, I embarked on my development journey armed with a laptop, curiosity, and love for the internet. Starting as a self-taught developer, I built my foundation through hands-on projects and countless debugging sessions, which only grew stronger when I pursued my Software Engineering degree.</p>
 
-                        <p>My evolution in the tech has been continuous growth, from mastering vanilla JavaScript (once my biggest enemy) to architecting sophisticated applications with React and TypeScript. Now, as a Software Engineer, I focus on building solutions that make a difference. Leading and being in great teams has taught me that great software emerges from the perfect balance of technical excellence and human-centered design.</p>
+                        <p>My evolution in the tech has been continuous growth, from mastering vanilla JavaScript (once my biggest challenge) to architecting sophisticated applications with React, TypeScript and Python. Now, as a Software Engineer, I focus on building solutions that make a difference. Leading and being in great teams has taught me that great software emerges from the perfect balance of technical excellence and human-centered design.</p>
 
                         <p>Outside the world of development, you&apos;ll find me on the basketball court or on Twitter.</p>
                     </div>

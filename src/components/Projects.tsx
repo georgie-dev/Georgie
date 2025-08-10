@@ -12,7 +12,7 @@ const Projects = () => {
             <div className='flex flex-col gap-y-10 md:gap-y-24 pt-12 mx-auto'>
                 {projects.map((project) => (
                     <div key={project.id} className={`w-full flex flex-col gap-10 md:gap-0 items-center justify-between ${project.id % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
-                        <div className='w-full h-60 md:h-80 rounded-xl'>
+                        <div className='w-full h-44 md:h-60 rounded-xl'>
                             <Image
                                 alt='project'
                                 src={project.image}
@@ -33,9 +33,9 @@ const Projects = () => {
                                 </div>
                                 <div className='flex items-center gap-3'>
                                     {project.link && (
-                                        <Link href={project.link} className='text-lg text-white'><LuExternalLink /></Link>
+                                        <Link href={project.link} target='_blank' className='text-lg text-white'><LuExternalLink /></Link>
                                     )}
-                                    {project?.gitHub && (<Link href={project?.gitHub} className='text-lg text-white'><FaGithub /></Link>)}
+                                    {project?.gitHub && (<Link href={project?.gitHub} target='_blank' className='text-lg text-white'><FaGithub /></Link>)}
                                 </div>
                             </div>
                         </div>

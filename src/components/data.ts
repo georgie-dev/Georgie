@@ -23,26 +23,25 @@ export const experience = [
   {
     title: "Software Engineer at GGHN",
     period: "October 2024 - Present",
-    description:
-      "At Georgetown Global Health Nigeria (GGHN), I serve as a Frontend Developer where I build healthcare-focused web applications. I specialize in creating responsive UI components using React.js, antd, and TypeScript, having achieved significant performance improvements including a 30% enhancement in user interaction and 25% reduction in load times. I develop technical documentation using Docusaurus and work closely with backend teams to integrate APIs and ensure smooth system operations.",
+    description:'I develop healthcare-focused web applications with a strong emphasis on responsive, user-friendly design. Using React.js, Ant Design, and TypeScript, I’ve delivered a 30% improvement in user interaction and onboarding experience. My role includes building healthcare platforms, integrating and developing APIs, and creating static documentation sites. I collaborate closely with backend teams to ensure seamless API integration and smooth system operations.',
   },
   {
-    title: "Software Engineer at AlleyBookings",
+    title: "Team Lead/Software Engineer at AlleyBookings",
     period: "March 2023 - October 2024",
     description:
-      "At AlleyBookings, I wore dual hats as Frontend Developer and Team Lead, managing a team of 5 developers while actively contributing to code development. I successfully led the delivery of an MVP in 3 months, implemented performance optimizations that reduced load times by 50%, and achieved a 95% user satisfaction rate. My leadership responsibilities included mentoring junior developers and driving Agile development processes, which resulted in a 40% increase in team productivity.",
+      "Led a team of five developers while contributing directly to frontend development. Delivered the company’s MVP within three months, implemented optimizations that cut load times by 50%, and achieved a 95% user satisfaction rate. Mentored junior developers and steered Agile development processes, boosting team productivity by 40%",
   },
   {
     title: "Web Developer at Ehealth4Everyone",
     period: "October 2022 - March 2023",
     description:
-      "During my time at ehealth4everyone, I worked as a Web Developer focusing on healthcare technology solutions. I contributed actively to the migration of the MSDAT Platform, achieving a 30% improvement in data handling efficiency. Using Vue and TypeScript, I developed responsive designs and built an in-house database management platform that boosted team performance by 50%. I also implemented data caching solutions that reduced load times by 40% and conducted comprehensive testing using Jest to ensure code quality.",
+      "Developed healthcare technology solutions with a focus on performance and usability. Contributed to the migration of the MSDAT Platform from v1 to v2, improving data handling and visualization efficiency by 50%. Built responsive UIs with Vue.js and TypeScript, and created an in-house database management platform that increased the data team performance by 70%. Implemented data caching solutions that cut load times by 40% and ensured code quality through comprehensive Jest testing",
   },
   {
     title: "Intern at Sysmax Technologies",
     period: "August 2019 - June 2020",
     description:
-      "I began my career as a Junior Web Developer at Sysmax Technologies, where I focused on creating user-friendly websites using HTML, CSS, and JavaScript. I implemented responsive designs to ensure optimal viewing across all devices and worked closely with the design team to deliver visually appealing and functional web solutions. My responsibilities included conducting thorough browser compatibility testing to maintain consistent functionality across different platforms.",
+      "Started my career as a Junior Web Developer, building user-friendly websites with HTML, CSS, and JavaScript. Implemented responsive designs for optimal viewing on all devices and collaborated with the design team to deliver visually appealing, functional web solutions. Conducted thorough browser compatibility testing to ensure consistent performance across platforms.",
   },
 ];
 
@@ -52,58 +51,56 @@ export const projects = [
     image: "/projects/alleybookings.png",
     name: "AlleyBookings",
     description:
-      "AlleyBookings is an online travel agency based in Kano, Nigeria, designed to serve travelers and tourists. Currently in beta testing, it offers a comprehensive range of services, including hotel and flight bookings, car rentals, and tour packages. As a one-stop platform, AlleyBookings simplifies travel planning for a seamless experience.",
+      "AlleyBookings is an online travel agency based in Kano, Nigeria, designed for travelers and tourists. Currently in beta, it offers hotel and flight bookings and tour packages. As a one-stop platform, AlleyBookings simplifies travel planning for a seamless experience.",
     link: "https://staging.alleybookings.com/",
-    stack: ["Next.js", "Javascript", "Tailwindcss"],
+    stack: ["Next.js", "JavaScript", "Tailwind CSS"],
   },
   {
     id: 2,
-    image: "/projects/nds.png",
-    name: "National Diagnostics Summit",
-    description:
-      "This project was built for the Federal Ministyr of Health and Social Welfare as a repository and advertisement platfrom for thier Mainden National Diagnostics Summit",
-    link: "https://nationaldiagnosticsummit.ng/",
-    // gitHub:'https://github.com/georgie-dev/Lift',
-    stack: ["React.js", "Typescript"],
-  },
-  {
-    id: 3,
     image: "/projects/msdat.png",
     name: "MSDAT",
     description:
-      "Built for the Federal Ministry of Health and Social Welfare, The MSDAT which stands for Multi-Source Data Triangulation Platfrom is a data visualization platfrom for key health indicators in Nigeria. This platfrom includes data for each state of the Federation and it use in key decision making in the Health Sector",
+      "Built for the Federal Ministry of Health and Social Welfare, the Multi-Source Data Triangulation (MSDAT) Platform is a data visualization tool for key health indicators in Nigeria. It provides state-level and national-level data to support informed decision-making in the health sector.",
     link: "https://msdat.fmohconnect.gov.ng/dashboard/Health_Outcomes_and_Service_Coverage?indicator=32&datasource=6&location=1",
-    // gitHub:'https://github.com/georgie-dev/Lift',
-    stack: ["Vue.js", "Typescript"],
+    stack: ["Vue.js", "TypeScript"],
   },
   {
-    id: 4,
+    id: 3,
     image: "/projects/strac.png",
     name: "sTRAC",
     description:
-      "sTRAC is a sample tracking platfrom built for the Cameroonian Ministry of Health. This Platform allows health facilities and labs within the country track the movement of clients health samples eligible for testing to improve quick turn around time and results ",
-    // link:'https://lift-theta.vercel.app/',
-    // gitHub:'https://github.com/georgie-dev/Lift',
-    stack: ["React.js", "Redux", "Tailwindcss"],
+      "sTRAC is a sample tracking platform built for the Cameroonian Ministry of Health. It enables health facilities and laboratories to monitor the movement of patient samples eligible for testing, improving turnaround time and results delivery.",
+    link: "https://app.stracapp.org",
+    stack: ["React.js", "Redux", "Tailwind CSS"],
+  },
+  {
+    id: 4,
+    image: "/projects/nds.png",
+    name: "National Diagnostics Summit",
+    description:
+      "A web platform built for the Federal Ministry of Health and Social Welfare to serve as a repository and promotional hub for their maiden National Diagnostics Summit.",
+    link: "https://nationaldiagnosticsummit.ng/",
+    stack: ["React.js", "TypeScript"],
   },
   {
     id: 5,
     image: "/projects/banquee.png",
     name: "Banquee",
     description:
-      "Banquee is a fun and interactive banking simulation platform where users can create accounts, get assigned account numbers, set PINs, track spending, and simulate deposits and withdrawals. It’s a hands-on way to explore digital banking without the risk!",
+      "Banquee is an interactive banking simulation platform where users can create accounts, receive account numbers, set PINs, track spending, and simulate deposits and withdrawals—a hands-on way to explore digital banking without risk.",
     link: "https://banquee-fawn.vercel.app/",
     gitHub: "https://github.com/georgie-dev/banquee",
-    stack: ["Next.js", "Typescript", "Firebase", "Tailwindcss"],
+    stack: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS"],
   },
   {
     id: 6,
     image: "/projects/lift.png",
     name: "Lift",
     description:
-      "Lift is a personal web application project I designed to help fitness enthusiasts streamline their journey. With Lift, users can create personalized exercise plans, join live training sessions, and set diet goals—all in one platform",
+      "Lift is a personal fitness web application designed to help users create tailored workout plans, join live training sessions, and set diet goals—all in one convenient platform.",
     link: "https://lift-theta.vercel.app/",
     gitHub: "https://github.com/georgie-dev/Lift",
-    stack: ["Next.js", "Javascript", "Firebase", "Tailwindcss"],
+    stack: ["Next.js", "JavaScript", "Firebase", "Tailwind CSS"],
   },
 ];
+
