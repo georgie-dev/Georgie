@@ -6,7 +6,7 @@ const sora = Sora({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
 export const metadata: Metadata = {
   title: "Georgie.dev",
-  description: "A developer you can trust",
+  description: "A boy that writes codes",
   
 };
 
