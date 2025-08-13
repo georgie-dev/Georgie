@@ -9,6 +9,10 @@ const Nav = () => {
 
     const [mobileNav, setMobileNav] = useState(false)
 
+    const toggleNav = () => {
+        setMobileNav(!mobileNav)
+    }
+
     return (
         <div className='fixed z-50 w-full border-b-2 border-black bg-white transition-all'>
             <div className='flex justify-between py-5 px-3 md:px-14 lg:px-36 items-center'>
@@ -30,17 +34,17 @@ const Nav = () => {
                     </Link>
                 </div>
                 <div className='md:hidden block relative'>
-                    <button className='text-black font-bold text-xl' onClick={() => setMobileNav(!mobileNav)}>
+                    <button className='text-black font-bold text-xl' onClick={toggleNav}>
                         {mobileNav ? <IoMdClose /> : <RiMenu3Line />}
                     </button>
                     {mobileNav && (
                         <div className='absolute top-8 w-32 right-0 *:border-2  *:border-black *:p-2 *:w-full *:text-black *: hover:*:text-white *:bg-white hover:*:bg-black flex flex-col gap-0'>
-                            <Link onClick={() => setMobileNav(!mobileNav)} href='/#skills'>Skills</Link>
-                            <Link onClick={() => setMobileNav(!mobileNav)} href='/#experience'>Experience</Link>
-                            <Link onClick={() => setMobileNav(!mobileNav)} href='/#about'>About Me</Link>
-                            <Link onClick={() => setMobileNav(!mobileNav)} href='/#projects'>Projects</Link>
-                            <Link onClick={() => setMobileNav(!mobileNav)} href='/#contact'>Contact</Link>
-                            <Link onClick={() => setMobileNav(!mobileNav)}
+                            <Link onClick={toggleNav} href='/#skills'>Skills</Link>
+                            <Link onClick={toggleNav} href='/#experience'>Experience</Link>
+                            <Link onClick={toggleNav} href='/#about'>About Me</Link>
+                            <Link onClick={toggleNav} href='/#projects'>Projects</Link>
+                            <Link onClick={toggleNav} href='/#contact'>Contact</Link>
+                            <Link onClick={toggleNav}
                                 href='/George_Manger_Resume.pdf'
                                 target='_blank'
                                 download

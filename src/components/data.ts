@@ -23,7 +23,8 @@ export const experience = [
   {
     title: "Software Engineer at GGHN",
     period: "October 2024 - Present",
-    description:'I develop healthcare-focused web applications with a strong emphasis on responsive, user-friendly design. Using React.js, Ant Design, and TypeScript, I’ve delivered a 30% improvement in user interaction and onboarding experience. My role includes building healthcare platforms, integrating and developing APIs, and creating static documentation sites. I collaborate closely with backend teams to ensure seamless API integration and smooth system operations.',
+    description:
+      "I develop healthcare-focused web applications with a strong emphasis on responsive, user-friendly design. Using React.js, Ant Design, and TypeScript, I’ve delivered a 30% improvement in user interaction and onboarding experience. My role includes building healthcare platforms, integrating and developing APIs, and creating static documentation sites. I collaborate closely with backend teams to ensure seamless API integration and smooth system operations.",
   },
   {
     title: "Team Lead/Software Engineer at AlleyBookings",
@@ -53,7 +54,7 @@ export const projects = [
     description:
       "AlleyBookings is an online travel agency based in Kano, Nigeria, designed for travelers and tourists. Currently in beta, it offers hotel and flight bookings and tour packages. As a one-stop platform, AlleyBookings simplifies travel planning for a seamless experience.",
     link: "https://staging.alleybookings.com/",
-    stack: ["Next.js", "JavaScript", "Tailwind CSS"],
+    stack: ["Next.js", "Shadcn", "Tailwind CSS", "Typescript"],
   },
   {
     id: 2,
@@ -71,7 +72,7 @@ export const projects = [
     description:
       "sTRAC is a sample tracking platform built for the Cameroonian Ministry of Health. It enables health facilities and laboratories to monitor the movement of patient samples eligible for testing, improving turnaround time and results delivery.",
     link: "https://app.stracapp.org",
-    stack: ["React.js", "Redux", "Tailwind CSS"],
+    stack: ["React.js", "Tailwind CSS", 'ant Design', 'Typescript', 'Django'],
   },
   {
     id: 4,
@@ -80,27 +81,35 @@ export const projects = [
     description:
       "A web platform built for the Federal Ministry of Health and Social Welfare to serve as a repository and promotional hub for their maiden National Diagnostics Summit.",
     link: "https://nationaldiagnosticsummit.ng/",
-    stack: ["React.js", "TypeScript"],
+    stack: ["React.js", 'TailwindCSS', "TypeScript"],
   },
   {
     id: 5,
+    image: "/projects/homevest.png",
+    name: "Homevest",
+    description:
+      "Homevest is a mock investment platform that allows users to explore real estate opportunities using cryptocurrency. It simulates property listings, investment tracking, and secure transactions to showcase the potential of blockchain-powered real estate investing.",
+    link: "https://homevest.vercel.app/",
+    stack: ["Next.js", "Shadcn", "Tailwind CSS", "TypeScript", 'Supabase'],
+  },
+  {
+    id: 6,
     image: "/projects/banquee.png",
     name: "Banquee",
     description:
       "Banquee is an interactive banking simulation platform where users can create accounts, receive account numbers, set PINs, track spending, and simulate deposits and withdrawals—a hands-on way to explore digital banking without risk.",
     link: "https://banquee-fawn.vercel.app/",
     gitHub: "https://github.com/georgie-dev/banquee",
-    stack: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS"],
+    stack: ["Next.js", "Tailwind CSS", "TypeScript", "Firebase",],
   },
   {
-    id: 6,
+    id: 7,
     image: "/projects/lift.png",
     name: "Lift",
     description:
       "Lift is a personal fitness web application designed to help users create tailored workout plans, join live training sessions, and set diet goals—all in one convenient platform.",
     link: "https://lift-theta.vercel.app/",
     gitHub: "https://github.com/georgie-dev/Lift",
-    stack: ["Next.js", "JavaScript", "Firebase", "Tailwind CSS"],
+    stack: ["Next.js", "Tailwind CSS", "JavaScript", "Firebase",],
   },
 ];
-
