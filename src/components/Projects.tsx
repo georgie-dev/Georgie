@@ -26,7 +26,7 @@ const Projects = () => {
                                 <h1 className='text-2xl md:text-4xl text-white font-bold'>{String(project.id).padStart(2, "0")}</h1>
                                 <h1 className='text-xl md:text-3xl text-white font-bold'>{project.name}</h1>
                                 <p className='text-zinc-400 text-sm'>{project.description}</p>
-                                <div className='flex items-center gap-4'>
+                                <div className='flex flex-wrap items-center gap-4'>
                                     {project.stack.map((item, index) => (
                                         <div key={index} className='bg-zinc-200 py-1 px-3 w-fit text-zinc-600 rounded-full text-xs'>{item}</div>
                                     ))}
