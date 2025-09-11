@@ -24,25 +24,25 @@ export const experience = [
     title: "Software Engineer at GGHN",
     period: "October 2024 - Present",
     description:
-      "I develop healthcare-focused web applications with a strong emphasis on responsive, user-friendly design. Using React.js, Ant Design, and TypeScript, I’ve delivered a 30% improvement in user interaction and onboarding experience. My role includes building healthcare platforms, integrating and developing APIs, and creating static documentation sites. I collaborate closely with backend teams to ensure seamless API integration and smooth system operations.",
+      "Designed and developed healthcare platforms including the Sample Tracking system (sTRAC), reducing lab-to-hospital turnaround time by 70%. Contributed to national-scale projects such as NPHCDA’s Revitalization Data Systems and the Electronic Laboratory Information System (en-LIS) for the Nigerian Ministry of Health. Worked with React.js, TypeScript, Django REST Framework, and PostgreSQL to deliver scalable, high-impact solutions.",
   },
   {
-    title: "Team Lead/Software Engineer at AlleyBookings",
+    title: "Frontend Developer / Team Lead at AlleyBookings",
     period: "March 2023 - October 2024",
     description:
-      "Led a team of five developers while contributing directly to frontend development. Delivered the company’s MVP within three months, implemented optimizations that cut load times by 50%, and achieved a 95% user satisfaction rate. Mentored junior developers and steered Agile development processes, boosting team productivity by 40%",
+      "Led a team of 5 developers to deliver the company’s MVP on schedule, building core booking features with React.js and Next.js. Implemented customer-driven improvements that raised product satisfaction to 95%. Mentored 3 junior developers, boosting team productivity by over 50%, and facilitated Agile sprints to ensure alignment with stakeholder requirements.",
   },
   {
     title: "Web Developer at Ehealth4Everyone",
     period: "October 2022 - March 2023",
     description:
-      "Developed healthcare technology solutions with a focus on performance and usability. Contributed to the migration of the MSDAT Platform from v1 to v2, improving data handling and visualization efficiency by 50%. Built responsive UIs with Vue.js and TypeScript, and created an in-house database management platform that increased the data team performance by 70%. Implemented data caching solutions that cut load times by 40% and ensured code quality through comprehensive Jest testing",
+      "Contributed to the migration of the Multi-Source Data Analytics and Triangulation Platform (MSDAT), enhancing data visualization and decision-making by 60%. Built an internal CRUD and data manipulation platform that improved team efficiency by 50%. Developed responsive UIs with Vue.js and TypeScript, implemented data caching to cut load times by 40%, and maintained code quality with Jest testing.",
   },
   {
     title: "Intern at Sysmax Technologies",
     period: "August 2019 - June 2020",
     description:
-      "Started my career as a Junior Web Developer, building user-friendly websites with HTML, CSS, and JavaScript. Implemented responsive designs for optimal viewing on all devices and collaborated with the design team to deliver visually appealing, functional web solutions. Conducted thorough browser compatibility testing to ensure consistent performance across platforms.",
+      "Gained hands-on experience in modern web development by building responsive websites with HTML, CSS, and JavaScript. Ensured cross-browser compatibility and collaborated with designers to deliver functional, user-friendly solutions for clients.",
   },
 ];
 
@@ -61,7 +61,7 @@ export const projects = [
     image: "/projects/msdat.png",
     name: "MSDAT",
     description:
-      "Built for the Federal Ministry of Health and Social Welfare, the Multi-Source Data Triangulation (MSDAT) Platform is a data visualization tool for key health indicators in Nigeria. It provides state-level and national-level data to support informed decision-making in the health sector.",
+      "Built for the Federal Ministry of Health and Social Welfare, the Multi-Source Data Analytics and Triangulation (MSDAT) Platform is a data visualization tool for key health indicators in Nigeria. It provides state-level and national-level data to support informed decision-making in the health sector.",
     link: "https://msdat.fmohconnect.gov.ng/dashboard/Health_Outcomes_and_Service_Coverage?indicator=32&datasource=6&location=1",
     stack: ["Vue.js", "TypeScript"],
   },
