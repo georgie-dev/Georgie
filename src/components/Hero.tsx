@@ -14,7 +14,9 @@ const Hero = () => {
                             <h1 className='font-extrabold'>Software <span className=' text-outline'>Engineer</span></h1>
                             <h1> Based In <span className='font-extrabold'>Nigeria.</span></h1>
                         </div>
-                        <div className='text-zinc-500'>I specialize in crafting clean, efficient, and scalable software solutions that solve real-world problems. With an expertise in front-end engineering and a good foundation in back-end engineering, I bring ideas to life through innovative design and robust engineering. Let’s collaborate and build something extraordinary.</div>
+                        <p className='text-zinc-500'>I design and build software that feels good to use and works reliably under the hood. 
+                            With strengths in frontend engineering and a strong grasp of backend systems, I create apps that are both user-friendly and technically solid.
+                             Think of me as the person who takes big ideas and turns them into products people actually enjoy.</p>
                     </div>
                     <div className=' flex items-center gap-4'>
                         {socialLinks.map((link, index) => (
